@@ -1,0 +1,85 @@
+body{
+	background-color: white;
+	text-align: center;
+}
+
+.CARRUSEL{
+	width: 100%;
+height: auto;
+	background-color: #fde6f7;
+	margin: auto;
+	overflow: hidden;
+}
+.CARRUSEL  .CARRUSELfoto{
+animation: slide 20s linear infinite;
+-webkit-animation: slide 20s linear infinite;
+display: flex;
+width: calc(200px * 3);
+}
+.CARRUSEL .slide{
+	width: 100%;
+}
+.CARRUSEL .slide .img {
+	width: 100%;
+}
+@keyframes slide{
+0%{ -webkit-transform: translateX(0px);
+	transform: translateX(0px);}
+
+100%{-webkit-transform: translateX(calc(-200px * 3));
+	transform: translateX(calc(-200px * 3));}
+
+
+}
+footer{
+	background-color: black;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+h1 {
+	text-align: center;
+}
+h2{
+	color: lime;
+}
+h3{
+	text-align: center;
+}
+a{
+color: blue;
+	display: inline;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+p{
+	font-size: 20px;
+}
+nav{
+	width: auto;
+height: 75px;
+background-color: #DAF7A6  ;
+display: flex;
+}
+li{
+	display: inline;
+	text-align: center;
+margin-left: 20px;
+}
+main{
+	height: auto;
+	width: 100% ;
+	background-color: #e4dafd;
+	margin-top: 20px;
+display: inline-block;
+}
+.SECCION1{
+	background-color: white;
+	width: 600 px;
+	height: 500 px;
+float: left;
+margin: 5px ;
+}
