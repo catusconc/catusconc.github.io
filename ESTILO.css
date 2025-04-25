@@ -189,4 +189,16 @@ main{
       width: 700px;
   height: 800px;
     }
+    a{
+      font-size: 35px;
+    }
+    h3{
+     font-size: 35px;
+    }
+    p{
+    font-size: 30px;
+    }
+    footer{
+      
+    }
 }
