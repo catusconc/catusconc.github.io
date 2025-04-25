@@ -1,13 +1,14 @@
 body{
-	background-color: white;
+	background-color: #84d2f2;
 	text-align: center;
 }
 
 .CARRUSEL {
 width: 100%;
-height: auto;
+height: 200px;
 margin: 50px auto 0;
 overflow: hidden;
+background-color: red;
 }
 .CARRUSEL ul {
 display: flex;
@@ -22,6 +23,7 @@ position: relative;
 }
 .CARRUSEL img{
     width: 100%;
+    height: 180px;
 }
 @keyframes slide{
     0% {margin-left: 0;}
@@ -54,13 +56,22 @@ h3{
 	color: blue;
 }
 a{
-color: blue;
-	display: inline;
-	font-size: 30px;
-	margin-left: 20px;
-	margin-right: 20px;
-	text-align: center;
-	text-decoration: none;
+font-family: 'helvetica neue', helvetica, sans-serif;
+font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 1; 
+        text-align: center;
+        border-radius: 2px double rgba(300,0,0,0.6);
+        margin-left: 20px;
+        margin-right: 1px;
+        margin-top: 1;
+        background: #84d2f2;
+        color: #17202A;
+        box-shadow: 6px 6px 0px rgba(0,200,0,0);
+        padding: 3px 5px;
+        display: inline;
+        cursor: pointer;
+        text-decoration: none;
 }
 p{
 	font-size: 20px;
@@ -70,7 +81,7 @@ p{
 nav{
 	width: auto;
 height: 75px;
-background-color: #DAF7A6  ;
+background-color: #aeea65  ;
 display: flex;
 }
 li{
@@ -81,7 +92,7 @@ margin-left: 20px;
 main{
 	height: auto;
 	width: 100% ;
-	background-color: #e4dafd;
+	background-color: #aeea65;
 	margin-top: 20px;
     display: block; 
     justify-content: center;
@@ -89,7 +100,7 @@ main{
   text-align:center;
 }
 .SECCION3{
-	background-color: #ede9db;
+	background-color: #84d2f2;
      width: 450px;
   height: 500px;
  margin-left: 40px;
@@ -130,7 +141,7 @@ main{
     padding: 10px 10px;
 	}
 	.SECCION4{
-	  background-color: #ede9db;
+	  background-color: #84d2f2;
     background-size: cover;
      width: 450px;
   height: 500px;
@@ -157,3 +168,25 @@ main{
     text-align:center;
     padding: 10px 10px;
 	}
+  @media (max-width: 1200px) {
+    .SECCION1{
+      width: 700px;
+  height: 800px;
+    }
+    .SECCION2{
+      width: 700px;
+  height: 800px;
+    }
+    .SECCION3{
+      width: 700px;
+  height: 800px;
+    }
+    .SECCION4{
+      width: 700px;
+  height: 800px;
+    }
+    .SECCION5{
+      width: 700px;
+  height: 800px;
+    }
+}
