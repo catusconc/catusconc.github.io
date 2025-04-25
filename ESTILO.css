@@ -199,10 +199,13 @@ main{
       font-size: 35px;
     }
     p{
-    font-size: 45px;
+    font-size: 42px;
     }
     iframe{
       width: 600px;
       height: 575px;
+    }
+    nav{
+      height: 80px;
     }
 }
