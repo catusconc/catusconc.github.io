@@ -12,13 +12,14 @@ footer{
 }
 h1 {
 	text-align: center;
+  color: #b00007;
 }
 h2{
 	color: lime;
 }
 h3{
 	text-align: left;
-	color: blue;
+	color: #b00007;
 }
 a{
 font-family: 'helvetica neue', helvetica, sans-serif;
@@ -31,7 +32,7 @@ font-size: 25px;
         margin-right: 1px;
         margin-top: 1;
         background: #84d2f2;
-        color: #17202A;
+        color: #b00007;
         box-shadow: 6px 6px 0px rgba(0,200,0,0);
         padding: 3px 5px;
         display: inline;
@@ -46,7 +47,7 @@ p{
 nav{
 	width: auto;
 height: 75px;
-background-color: #aeea65  ;
+background-color: #aeea65;
 display: flex;
 }
 ul{
@@ -60,14 +61,14 @@ li{
     margin-top: 10px;
     position: relative;
         list-style: none;
-        background: #fff;
+        background-color: #aeea65;
         float: left;
         text-align: center;
 }
 
 .CARRUSEL {
 width: 100%;
-height: auto;
+height: 400px;
 margin: 50px auto 0;
 overflow: hidden;
 }
@@ -84,6 +85,7 @@ position: relative;
 }
 .CARRUSEL img{
     width: 100%;
+    height: 350px;
 }
 @keyframes slide{
     0% {margin-left: 0;}
