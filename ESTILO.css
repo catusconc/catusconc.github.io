@@ -190,15 +190,19 @@ main{
   height: 800px;
     }
     a{
-      font-size: 35px;
+      font-size: 45px;
     }
     h3{
      font-size: 35px;
     }
-    p{
-    font-size: 30px;
+    h2{
+      font-size: 25px;
     }
-    footer{
-      
+    p{
+    font-size: 40px;
+    }
+    iframe{
+      width: 600px;
+      height: 575px;
     }
 }
