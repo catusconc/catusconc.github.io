@@ -3,34 +3,40 @@ body{
 	text-align: center;
 }
 
-.CARRUSEL{
-	width: 100%;
+.CARRUSEL {
+width: 100%;
 height: auto;
-	background-color: #fde6f7;
-	margin: auto;
-	overflow: hidden;
+margin: 50px auto 0;
+overflow: hidden;
 }
-.CARRUSEL  .CARRUSELfoto{
-animation: slide 20s linear infinite;
--webkit-animation: slide 20s linear infinite;
+.CARRUSEL ul {
 display: flex;
-width: calc(200px * 3);
+padding: 0;
+width: 400%;
+animation: slide 20s infinite alternate ease-in-out;
 }
-.CARRUSEL .slide{
-	width: 100%;
+.CARRUSEL li {
+    width: 100%;
+list-style: none;
+position: relative;
 }
-.CARRUSEL .slide .img {
-	width: 100%;
+.CARRUSEL img{
+    width: 100%;
 }
 @keyframes slide{
-0%{ -webkit-transform: translateX(0px);
-	transform: translateX(0px);}
+    0% {margin-left: 0;}
+     20% {margin-left: 0;}
 
-100%{-webkit-transform: translateX(calc(-200px * 3));
-	transform: translateX(calc(-200px * 3));}
+      25% {margin-left: -100%;} 
+      45% {margin-left: -100%;} 
 
+      50% {margin-left: -200%;} 
+      70% {margin-left: -200%;} 
 
+       75% {margin-left: -300%;} 
+      100% {margin-left: -300%;} 
 }
+
 footer{
 	background-color: black;
 	width: 100%;
@@ -44,7 +50,8 @@ h2{
 	color: lime;
 }
 h3{
-	text-align: center;
+	text-align: left;
+	color: blue;
 }
 a{
 color: blue;
@@ -57,6 +64,8 @@ color: blue;
 }
 p{
 	font-size: 20px;
+	color: blue;
+	text-align: left;
 }
 nav{
 	width: auto;
@@ -74,12 +83,77 @@ main{
 	width: 100% ;
 	background-color: #e4dafd;
 	margin-top: 20px;
-display: inline-block;
+    display: block; 
+    justify-content: center;
+  align-items: center;
+  text-align:center;
 }
-.SECCION1{
-	background-color: white;
-	width: 600 px;
-	height: 500 px;
-float: left;
-margin: 5px ;
-}
+.SECCION3{
+	background-color: #ede9db;
+     width: 450px;
+  height: 500px;
+ margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+    float: none;
+    text-align:center;
+    padding: 10px 10px;
+	}
+	.SECCION1{
+	background-image: url(IMG/foto1.jpeg);
+    background-size: cover;
+     width: 450px;
+  height: 500px;
+ margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+    float: none;
+    text-align:center;
+    padding: 10px 10px;
+	}
+	.SECCION2{
+	background-image: url(IMG/foto2.jpeg);
+    background-size: cover;
+     width: 450px;
+  height: 500px;
+ margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+    float: none;
+    text-align:center;
+    padding: 10px 10px;
+	}
+	.SECCION4{
+	  background-color: #ede9db;
+    background-size: cover;
+     width: 450px;
+  height: 500px;
+ margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+    float: none;
+    text-align:center;
+    padding: 10px 10px;
+	}
+	.SECCION5{
+	  background-image: url(IMG/foto3.jpeg);
+    background-size: cover;
+     width: 450px;
+  height: 500px;
+ margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+    float: none;
+    text-align:center;
+    padding: 10px 10px;
+	}
